@@ -12,6 +12,10 @@ CREATE COMPUTE MODULE getZipMerge
 		SET OutputRoot.JSON.Data.Item[2] = Environment.Variables.secondCall.Item[1];
 		SET OutputRoot.JSON.Data.Item[2] = Environment.Variables.secondCall.Item[1];
 		SET OutputRoot.JSON.Data.Item[2] = Environment.Variables.secondCall.Item[1];
+		SET OutputRoot.JSON.Data.Item[2] = Environment.Variables.secondCall.Item[1];
+		SET OutputRoot.JSON.Data.Item[2] = Environment.Variables.secondCall.Item[1];
+		SET OutputRoot.JSON.Data.Item[2] = Environment.Variables.secondCall.Item[1];
+		SET OutputRoot.JSON.Data.Item[2] = Environment.Variables.secondCall.Item[1];
 		
 		
 		RETURN TRUE;
