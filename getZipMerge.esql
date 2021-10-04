@@ -10,6 +10,8 @@ CREATE COMPUTE MODULE getZipMerge
 		-- Return the Data Array into the zipCodeResponce Array
 		SET OutputRoot.JSON.Data.Item[1] = Environment.Variables.firstCall.Item[1];
 		SET OutputRoot.JSON.Data.Item[2] = Environment.Variables.secondCall.Item[1];
+		SET OutputRoot.JSON.Data.Item[2] = Environment.Variables.secondCall.Item[1];
+		SET OutputRoot.JSON.Data.Item[2] = Environment.Variables.secondCall.Item[1];
 		
 		
 		RETURN TRUE;
